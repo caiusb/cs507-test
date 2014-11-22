@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\title{An example document}
+\author{Caius Brindescu}
+\date{January 1st, 1970}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+An abstract
+\end{abstract}
+
+\section{Before}
+
+\section{Dummy}
+\label{sec:dummy}
+Lorem ipsum...
+
+See section \ref{sec:dummy}.
+
+\begin{equation}
+e^{ix} = \cos{x} + i \sin{x}.
+\label{eq:euler}
+\end{equation}
+
+See Euler's equations \ref{eq:euler}.
+
+As seen in \cite{knuth1992literate}.
+
+\bibliography{example}
+\bibliographystyle{plain}
+
+\end{document}
